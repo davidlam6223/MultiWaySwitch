@@ -1,2 +1,2 @@
-# MutiWaySildeBar
-iOS MutiWaySlideBar
+# MultiWaySildeBar
+iOS MultiWaySlideBar
