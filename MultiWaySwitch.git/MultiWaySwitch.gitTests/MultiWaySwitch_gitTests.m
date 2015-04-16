@@ -1,6 +1,6 @@
 //
-//  MultiWaySildeBarTests.m
-//  MultiWaySildeBarTests
+//  MultiWaySwitch_gitTests.m
+//  MultiWaySwitch.gitTests
 //
 //  Created by Zensis on 15/4/15.
 //  Copyright (c) 2015 David. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface MultiWaySildeBarTests : XCTestCase
+@interface MultiWaySwitch_gitTests : XCTestCase
 
 @end
 
-@implementation MultiWaySildeBarTests
+@implementation MultiWaySwitch_gitTests
 
 - (void)setUp {
     [super setUp];

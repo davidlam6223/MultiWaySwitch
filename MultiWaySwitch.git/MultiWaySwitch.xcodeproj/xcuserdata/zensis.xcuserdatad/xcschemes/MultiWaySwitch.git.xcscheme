@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "000398301ADE3F9400A718EB"
-               BuildableName = "MultiWaySildeBar.app"
-               BlueprintName = "MultiWaySildeBar"
-               ReferencedContainer = "container:MultiWaySildeBar.xcodeproj">
+               BlueprintIdentifier = "00C5659A1ADE57690037DF75"
+               BuildableName = "MultiWaySwitch.app"
+               BlueprintName = "MultiWaySwitch"
+               ReferencedContainer = "container:MultiWaySwitch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "000398491ADE3F9400A718EB"
-               BuildableName = "MultiWaySildeBarTests.xctest"
-               BlueprintName = "MultiWaySildeBarTests"
-               ReferencedContainer = "container:MultiWaySildeBar.xcodeproj">
+               BlueprintIdentifier = "00C565B31ADE576A0037DF75"
+               BuildableName = "MultiWaySwitchTests.xctest"
+               BlueprintName = "MultiWaySwitchTests"
+               ReferencedContainer = "container:MultiWaySwitch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "000398491ADE3F9400A718EB"
-               BuildableName = "MultiWaySildeBarTests.xctest"
-               BlueprintName = "MultiWaySildeBarTests"
-               ReferencedContainer = "container:MultiWaySildeBar.xcodeproj">
+               BlueprintIdentifier = "00C565B31ADE576A0037DF75"
+               BuildableName = "MultiWaySwitchTests.xctest"
+               BlueprintName = "MultiWaySwitchTests"
+               ReferencedContainer = "container:MultiWaySwitch.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "000398301ADE3F9400A718EB"
-            BuildableName = "MultiWaySildeBar.app"
-            BlueprintName = "MultiWaySildeBar"
-            ReferencedContainer = "container:MultiWaySildeBar.xcodeproj">
+            BlueprintIdentifier = "00C5659A1ADE57690037DF75"
+            BuildableName = "MultiWaySwitch.app"
+            BlueprintName = "MultiWaySwitch"
+            ReferencedContainer = "container:MultiWaySwitch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "000398301ADE3F9400A718EB"
-            BuildableName = "MultiWaySildeBar.app"
-            BlueprintName = "MultiWaySildeBar"
-            ReferencedContainer = "container:MultiWaySildeBar.xcodeproj">
+            BlueprintIdentifier = "00C5659A1ADE57690037DF75"
+            BuildableName = "MultiWaySwitch.app"
+            BlueprintName = "MultiWaySwitch"
+            ReferencedContainer = "container:MultiWaySwitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "000398301ADE3F9400A718EB"
-            BuildableName = "MultiWaySildeBar.app"
-            BlueprintName = "MultiWaySildeBar"
-            ReferencedContainer = "container:MultiWaySildeBar.xcodeproj">
+            BlueprintIdentifier = "00C5659A1ADE57690037DF75"
+            BuildableName = "MultiWaySwitch.app"
+            BlueprintName = "MultiWaySwitch"
+            ReferencedContainer = "container:MultiWaySwitch.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

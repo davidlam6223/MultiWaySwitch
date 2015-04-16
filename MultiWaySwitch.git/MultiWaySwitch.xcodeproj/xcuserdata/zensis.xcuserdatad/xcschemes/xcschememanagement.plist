@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MultiWaySildeBar.xcscheme</key>
+		<key>MultiWaySwitch.git.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>000398301ADE3F9400A718EB</key>
+		<key>00C5659A1ADE57690037DF75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>000398491ADE3F9400A718EB</key>
+		<key>00C565B31ADE576A0037DF75</key>
 		<dict>
 			<key>primary</key>
 			<true/>

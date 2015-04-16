@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004FD0B41ADF907C003840A4 /* thumba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004FD0B21ADF907C003840A4 /* thumba.jpg */; };
+		004FD0B51ADF907C003840A4 /* thumbb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 004FD0B31ADF907C003840A4 /* thumbb.jpg */; };
+		00C565A11ADE57690037DF75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C565A01ADE57690037DF75 /* main.m */; };
+		00C565A41ADE57690037DF75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C565A31ADE57690037DF75 /* AppDelegate.m */; };
+		00C565A71ADE57690037DF75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C565A61ADE57690037DF75 /* ViewController.m */; };
+		00C565AA1ADE576A0037DF75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C565A81ADE576A0037DF75 /* Main.storyboard */; };
+		00C565AC1ADE576A0037DF75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C565AB1ADE576A0037DF75 /* Images.xcassets */; };
+		00C565AF1ADE576A0037DF75 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C565AD1ADE576A0037DF75 /* LaunchScreen.xib */; };
+		00C565BB1ADE576A0037DF75 /* MultiWaySwitch_gitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C565BA1ADE576A0037DF75 /* MultiWaySwitch_gitTests.m */; };
+		00C565C71ADE57900037DF75 /* MultiWaySwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C565C61ADE57900037DF75 /* MultiWaySwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00C565B51ADE576A0037DF75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00C565931ADE57690037DF75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00C5659A1ADE57690037DF75;
+			remoteInfo = MultiWaySwitch.git;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004FD0B21ADF907C003840A4 /* thumba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumba.jpg; sourceTree = "<group>"; };
+		004FD0B31ADF907C003840A4 /* thumbb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thumbb.jpg; sourceTree = "<group>"; };
+		00C5659B1ADE57690037DF75 /* MultiWaySwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiWaySwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C5659F1ADE57690037DF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C565A01ADE57690037DF75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00C565A21ADE57690037DF75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00C565A31ADE57690037DF75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00C565A51ADE57690037DF75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00C565A61ADE57690037DF75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00C565A91ADE576A0037DF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00C565AB1ADE576A0037DF75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00C565AE1ADE576A0037DF75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00C565B41ADE576A0037DF75 /* MultiWaySwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiWaySwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00C565B91ADE576A0037DF75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00C565BA1ADE576A0037DF75 /* MultiWaySwitch_gitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiWaySwitch_gitTests.m; sourceTree = "<group>"; };
+		00C565C51ADE57900037DF75 /* MultiWaySwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiWaySwitch.h; sourceTree = "<group>"; };
+		00C565C61ADE57900037DF75 /* MultiWaySwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiWaySwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00C565981ADE57690037DF75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C565B11ADE576A0037DF75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C565921ADE57690037DF75 = {
+			isa = PBXGroup;
+			children = (
+				00C5659D1ADE57690037DF75 /* MultiWaySwitch */,
+				00C565B71ADE576A0037DF75 /* MultiWaySwitchTests */,
+				00C5659C1ADE57690037DF75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00C5659C1ADE57690037DF75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00C5659B1ADE57690037DF75 /* MultiWaySwitch.app */,
+				00C565B41ADE576A0037DF75 /* MultiWaySwitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00C5659D1ADE57690037DF75 /* MultiWaySwitch */ = {
+			isa = PBXGroup;
+			children = (
+				00C565C41ADE577A0037DF75 /* Lib */,
+				00C565A21ADE57690037DF75 /* AppDelegate.h */,
+				00C565A31ADE57690037DF75 /* AppDelegate.m */,
+				00C565A51ADE57690037DF75 /* ViewController.h */,
+				00C565A61ADE57690037DF75 /* ViewController.m */,
+				00C565A81ADE576A0037DF75 /* Main.storyboard */,
+				00C565AB1ADE576A0037DF75 /* Images.xcassets */,
+				00C565AD1ADE576A0037DF75 /* LaunchScreen.xib */,
+				00C5659E1ADE57690037DF75 /* Supporting Files */,
+			);
+			name = MultiWaySwitch;
+			path = MultiWaySwitch.git;
+			sourceTree = "<group>";
+		};
+		00C5659E1ADE57690037DF75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				004FD0B21ADF907C003840A4 /* thumba.jpg */,
+				004FD0B31ADF907C003840A4 /* thumbb.jpg */,
+				00C5659F1ADE57690037DF75 /* Info.plist */,
+				00C565A01ADE57690037DF75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00C565B71ADE576A0037DF75 /* MultiWaySwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				00C565BA1ADE576A0037DF75 /* MultiWaySwitch_gitTests.m */,
+				00C565B81ADE576A0037DF75 /* Supporting Files */,
+			);
+			name = MultiWaySwitchTests;
+			path = MultiWaySwitch.gitTests;
+			sourceTree = "<group>";
+		};
+		00C565B81ADE576A0037DF75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00C565B91ADE576A0037DF75 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00C565C41ADE577A0037DF75 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				00C565C51ADE57900037DF75 /* MultiWaySwitch.h */,
+				00C565C61ADE57900037DF75 /* MultiWaySwitch.m */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00C5659A1ADE57690037DF75 /* MultiWaySwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C565BE1ADE576A0037DF75 /* Build configuration list for PBXNativeTarget "MultiWaySwitch" */;
+			buildPhases = (
+				00C565971ADE57690037DF75 /* Sources */,
+				00C565981ADE57690037DF75 /* Frameworks */,
+				00C565991ADE57690037DF75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiWaySwitch;
+			productName = MultiWaySwitch.git;
+			productReference = 00C5659B1ADE57690037DF75 /* MultiWaySwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00C565B31ADE576A0037DF75 /* MultiWaySwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C565C11ADE576A0037DF75 /* Build configuration list for PBXNativeTarget "MultiWaySwitchTests" */;
+			buildPhases = (
+				00C565B01ADE576A0037DF75 /* Sources */,
+				00C565B11ADE576A0037DF75 /* Frameworks */,
+				00C565B21ADE576A0037DF75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00C565B61ADE576A0037DF75 /* PBXTargetDependency */,
+			);
+			name = MultiWaySwitchTests;
+			productName = MultiWaySwitch.gitTests;
+			productReference = 00C565B41ADE576A0037DF75 /* MultiWaySwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00C565931ADE57690037DF75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = David;
+				TargetAttributes = {
+					00C5659A1ADE57690037DF75 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					00C565B31ADE576A0037DF75 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 00C5659A1ADE57690037DF75;
+					};
+				};
+			};
+			buildConfigurationList = 00C565961ADE57690037DF75 /* Build configuration list for PBXProject "MultiWaySwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00C565921ADE57690037DF75;
+			productRefGroup = 00C5659C1ADE57690037DF75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00C5659A1ADE57690037DF75 /* MultiWaySwitch */,
+				00C565B31ADE576A0037DF75 /* MultiWaySwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00C565991ADE57690037DF75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C565AA1ADE576A0037DF75 /* Main.storyboard in Resources */,
+				00C565AF1ADE576A0037DF75 /* LaunchScreen.xib in Resources */,
+				004FD0B41ADF907C003840A4 /* thumba.jpg in Resources */,
+				00C565AC1ADE576A0037DF75 /* Images.xcassets in Resources */,
+				004FD0B51ADF907C003840A4 /* thumbb.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C565B21ADE576A0037DF75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00C565971ADE57690037DF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C565A71ADE57690037DF75 /* ViewController.m in Sources */,
+				00C565C71ADE57900037DF75 /* MultiWaySwitch.m in Sources */,
+				00C565A41ADE57690037DF75 /* AppDelegate.m in Sources */,
+				00C565A11ADE57690037DF75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00C565B01ADE576A0037DF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C565BB1ADE576A0037DF75 /* MultiWaySwitch_gitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00C565B61ADE576A0037DF75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00C5659A1ADE57690037DF75 /* MultiWaySwitch */;
+			targetProxy = 00C565B51ADE576A0037DF75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00C565A81ADE576A0037DF75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C565A91ADE576A0037DF75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00C565AD1ADE576A0037DF75 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00C565AE1ADE576A0037DF75 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00C565BC1ADE576A0037DF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00C565BD1ADE576A0037DF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00C565BF1ADE576A0037DF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiWaySwitch.git/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MultiWaySwitch;
+			};
+			name = Debug;
+		};
+		00C565C01ADE576A0037DF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiWaySwitch.git/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MultiWaySwitch;
+			};
+			name = Release;
+		};
+		00C565C21ADE576A0037DF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiWaySwitch.gitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MultiWaySwitchTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiWaySwitch.git.app/MultiWaySwitch.git";
+			};
+			name = Debug;
+		};
+		00C565C31ADE576A0037DF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiWaySwitch.gitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MultiWaySwitchTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiWaySwitch.git.app/MultiWaySwitch.git";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C565961ADE57690037DF75 /* Build configuration list for PBXProject "MultiWaySwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C565BC1ADE576A0037DF75 /* Debug */,
+				00C565BD1ADE576A0037DF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C565BE1ADE576A0037DF75 /* Build configuration list for PBXNativeTarget "MultiWaySwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C565BF1ADE576A0037DF75 /* Debug */,
+				00C565C01ADE576A0037DF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00C565C11ADE576A0037DF75 /* Build configuration list for PBXNativeTarget "MultiWaySwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C565C21ADE576A0037DF75 /* Debug */,
+				00C565C31ADE576A0037DF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00C565931ADE57690037DF75 /* Project object */;
+}
