@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>555ACC28-EC25-4D47-9468-5BB2C608FC63</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MultiWaySwitch.git</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AC1899F14E788DDAA78B6224635E3D266F3D1D3E</key>
+		<string>https://github.com/davidlam6223/MultiWaySwitch.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MultiWaySwitch.git/MultiWaySwitch.git.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AC1899F14E788DDAA78B6224635E3D266F3D1D3E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/davidlam6223/MultiWaySwitch.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AC1899F14E788DDAA78B6224635E3D266F3D1D3E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AC1899F14E788DDAA78B6224635E3D266F3D1D3E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MultiWaySwitch</string>
+		</dict>
+	</array>
+</dict>
+</plist>
