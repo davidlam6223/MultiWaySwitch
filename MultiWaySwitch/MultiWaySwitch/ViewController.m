@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    MultiWaySwitch* a = [[MultiWaySwitch alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width,self.view.frame.size.height)];
+    MultiWaySwitch* a = [[MultiWaySwitch alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width,40)];
     a.numberOfPoints = 5;
     [a setTrackColor: [UIColor redColor]];
     [a setTrackWidth:30];

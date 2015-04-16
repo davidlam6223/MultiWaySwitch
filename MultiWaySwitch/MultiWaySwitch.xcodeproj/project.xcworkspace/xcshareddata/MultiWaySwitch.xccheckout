@@ -14,7 +14,7 @@
 		<string>https://github.com/davidlam6223/MultiWaySwitch.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MultiWaySwitch.git/MultiWaySwitch.xcodeproj</string>
+	<string>MultiWaySwitch/MultiWaySwitch.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>AC1899F14E788DDAA78B6224635E3D266F3D1D3E</key>
